@@ -22,5 +22,5 @@ myPacs <- installed.packages() %>%
   as_tibble %>%
   select(Package, LibPath, Version, Priority, Built)
 
-write.csv(myPacs,here("data","installed.packages.csv"))
+write.csv(myPacs, here("data","installed.packages.csv"))
 
